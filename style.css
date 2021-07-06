@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header section start */
+
+header{
+    background: #FC8F49;
+    height: 90px;
+    box-shadow: 10px 0px 40px grey;
+    padding-left: 30px;
+}
+.flex-container{
+    display: flex;
+}
+
+.logo{
+    width: 30%;
+    margin-top: 10px;
+}
+
+.logo img{
+    width: 17%;
+    float: left;
+}
+
+.logo h2{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+}
+.menu{
+    width: 60%;
+    margin-top: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px 15px;
+   
+}
+/* header section end */
+
+/* order food section start */
+.order-food{
+    margin-left: 6%;
+}
+.left-side{
+    width: 40%;
+}
+
+.order-food-content{
+    margin-top: 25%;
+}
+
+.order-food-content h1{
+    font-size: 50px;
+    color: rgb(61, 60, 60);
+}
+
+.order-food-content p{
+    font-size: 16px;
+    color: rgb(95, 92, 92);
+    margin-bottom: 50px;
+}
+
+.click-button{
+    text-decoration: none;
+    background-image: linear-gradient(#FD5632, #FB8F48);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.txt-color{
+    color: #FC8F49;
+}
+
+.right-side{
+    width: 40%;  
+}
+.right-side img{
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 45%;
+}
+
+
+/* order food section end */
+
+/* about me section start */
+
+.about-me{
+    background-image: url(images/about-section-bg.png);
+    background-repeat: no-repeat;
+}
+
+.left-side img{
+    width: 70%;
+    margin-left: 16%;
+}
+
+.about-me-description{
+    margin-top: 6%;
+    margin-left: 5%;
+}
+
+.about-me-description h2{
+    font-size: 40px;
+    color: grey;
+}
+
+.about-me-description p{
+    font-size: 16px;
+    color: rgb(95, 92, 92);
+    margin-bottom: 50px;
+}
+
+/* about me section end */
+
+/* recipie section start */
+
+.recipie-item-header-content{
+    margin: 5% 0%;
+    text-align: center;
+}
+
+.recipie-item-header-content h2{
+    font-size: 40px;
+    color: grey;
+}
+
+.recipie-item-describe-boxes{
+    margin: 5%;
+}
+
+.recipie-box{
+    width: 30%;
+    margin-right: 45px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px  rgb(189, 179, 179) ;
+}
+
+.recipie-box img{
+    width: 100%;
+}
+
+#recipie-box3{
+    width: 30%;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px  rgb(189, 179, 179) ;
+}
+
+#recipie-box3 img{
+    width: 100%;
+}
+
+/* recipie section end */
+
+/* follower-count section start */
+
+.follower-count{
+    margin: 8% 15%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgb(189, 179, 179);
+    padding: 3% 10%;
+
+}
+
+.box{
+    margin-right: 75px;
+}
+
+.box h1{
+    font-size: 40px;
+}
+
+.box p{
+    font-size: 18px;
+    margin-top: -40px;
+}
+
+#mar-right-none{
+    margin-right: 0px;
+}
+/* follower-count section end */
+
+/* contact form section start */
+.contact-us-form{
+    background: #FC8F49;
+}
+
+
+
+.sign-img img{
+    width: 65%;
+    margin: 8% 15%
+}
+
+label{
+    font-weight: 700;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+
+  input[type=submit] {
+    background: #FF7600;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .contact-us-description{
+      margin: 5% 0% 5% 5%;
+  }
+  
+/* contact form section end */
+
+/* footer section start */
+
+footer{
+    background:#0B0D17;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+}
+footer h2{
+    color: grey;
+    margin: 0;
+    padding-top: 20px;
+}
+/* footer section end */
